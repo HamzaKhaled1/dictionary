@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light{
+  --custom: 114,35,204;
+  --background:white;
+  --textColor:black
+  
+ 
+}
+.dark{
+  --custom: 114,35,204;
+  --background:black;
+  --textColor:white
+}
+body{
+  color: var(--textColor);
+  background-color:var(--background) ;
+}
+
+.root{
+  height: 100vh;
+  font-family:" loraBold";
+}
+
+@font-face {
+  font-family:'inconsolata' ;
+  src: url('../public/assets/fonts/inconsolata/static/Inconsolata-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'inconsolataBold' ;
+  src: url('../public/assets/fonts/inconsolata/static/Inconsolata-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family:'inter Bold' ;
+  src: url('../public/assets/fonts/inter/static/Inter-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family:'inter' ;
+  src: url('../public/assets/fonts/inter/static/Inter-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'lora' ;
+  src: url('../public/assets/fonts/lora/static/Lora-Regular.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "LoraBoldItalic";
+  src: url("../public/assets/fonts/lora/static/Lora-BoldItalic.ttf") ;
+  font-weight: bold;
+  font-style:italic;
+}
+@font-face {
+  font-family:'lora Bold' ;
+  src: url('../public/assets/fonts/lora/static/Lora-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
