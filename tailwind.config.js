@@ -8,7 +8,8 @@ export default {
         custom:"rgba(var(--custom))",
         background:"var(--background)",
         color:"white",
-        linebackground:"var(--linebackground)"
+        linebackground:"var(--linebackground)",
+        searchbar:"var(--searchbar)"
       },
      fontFamily:{
       loraIalicBold:["LoraBoldItalic"],

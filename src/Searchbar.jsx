@@ -20,11 +20,11 @@ const Searchbar = ({ searchHandler }) => {
 
   return (
     <>
-      <div className='flex justify-start gap-20 ml-1 md:gap-[28rem] bg-slate-200 mt-10 rounded-md p-2'>
+      <div className='flex justify-start gap-20 ml-1 md:gap-[28rem] bg-searchbar mt-10 rounded-md p-2'>
         <input
           type="text"
           placeholder="search..."
-          className='bg-transparent focus:outline-none font-loraBold dark:text-black'
+          className='bg-transparent focus:outline-none font-loraBold '
           onChange={inputHandler}
           onKeyPress={handleKeyPress}
           value={word}

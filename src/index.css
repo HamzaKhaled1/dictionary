@@ -7,6 +7,8 @@
   --background:white;
   --textColor:black;
   --linebackground:black;
+    --searchbar:#f4f4f4
+  
   
  
 }
@@ -15,6 +17,8 @@
   --background:black;
   --textColor:white;
   --linebackground:white;
+  --searchbar:#1f1f1f
+  
 }
 body{
   color: var(--textColor);
