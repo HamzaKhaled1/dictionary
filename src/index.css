@@ -5,14 +5,16 @@
 .light{
   --custom: 114,35,204;
   --background:white;
-  --textColor:black
+  --textColor:black;
+  --linebackground:black;
   
  
 }
 .dark{
   --custom: 114,35,204;
   --background:black;
-  --textColor:white
+  --textColor:white;
+  --linebackground:white;
 }
 body{
   color: var(--textColor);

@@ -7,7 +7,8 @@ export default {
       colors:{
         custom:"rgba(var(--custom))",
         background:"var(--background)",
-        color:"white"
+        color:"white",
+        linebackground:"var(--linebackground)"
       },
      fontFamily:{
       loraIalicBold:["LoraBoldItalic"],

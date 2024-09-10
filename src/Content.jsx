@@ -45,7 +45,7 @@ return (
     <div key={index}>
       <div className="flex w-full items-center h-10 mt-5">
         <span className="text-xl mr-1 font-loraIalicBold">{item.partOfSpeech}</span>
-        <div className="h-[1px] bg-black flex-grow opacity-25 dark:bg-white"></div>
+        <div className="h-[1px] bg-linebackground flex-grow opacity-25 "></div>
       </div>
 
       <p className="opacity-50 mt-6 mb-4 ">Meaning</p>
