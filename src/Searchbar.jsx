@@ -5,7 +5,7 @@ const Searchbar = ({ searchHandler }) => {
   const [word, setWord] = useState('');
 
   const inputHandler = (e) => {
-    setWord(e.target.value);
+    setWord((e.target.value).toLowerCase());
   };
 
   const submitHandler = () => {
