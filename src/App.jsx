@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Content from './content'
+import Content from './Content'
 import Header from './Header'
 import Searchbar from './Searchbar'
 function App() {
